@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{% static '/CSS/BasePage.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <img srs="logo" alt="">
+            <div class ="right-nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="Service" >Services</a></li>
+                <li><a href="News" >News & Events</a></li>
+                <li><a href="Tickets" >Tickets</a></li>
+                <li><a href="About" >About Us</a></li>
+                <li><a href="Contact" >Contact</a></li>
+            </ul>
+            <a href="Entry">
+                <button => register now</button>
+            </a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Welcome to UTOPIA<br>the Citizen Portal of<br> BANGLADESH</h1>
+            <p>Your Smart Journey Starts Here</p>
+            <div class ="btns">
+                <p1>Already have an account?</p1>
+                <a href="Entry">
+                    <button>LogIN Now</button>
+                </a>
+            </div>
+        </section>
+        <section>
+            <img class="branching" src="/static/IMG/Home.png" atl="">
+            <span>
+                <img src="/static/IMG/puzzle.png" atl="">
+            </span>
+            <span>
+                <img src="/static/IMG/infrastructure.png" atl="">
+            </span>
+            <span>
+                <img src="/static/IMG/voting-box.png" atl="">
+            </span>
+            <span>
+                <img src="/static/IMG/healthcare.png" atl="">
+            </span>
+        </section>
+    </main>
+</body>
+</html>
